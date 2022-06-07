@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
 *main - Entry point
 *Return: Always 0 (success)
@@ -10,9 +11,9 @@ int i;
 
 for (i = 0; i < 8; i++)
 {
-putchar(c[i]);
+_putchar(c[i]);
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
 
