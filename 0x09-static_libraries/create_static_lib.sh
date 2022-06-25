@@ -1,4 +1,4 @@
 #!/bin/bash
--Wall -Werror -Wextra -pedantic -std=gnu89
-ar rc liball.a *.o
+-Wall -Werror -Wextra -pedantic
+ar rc liball.a *.c
 
