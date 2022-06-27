@@ -10,7 +10,6 @@
   */
 
 char *_strdup(char *str)
-char *_strdup(char *str)
 {
 	int a = 0, i = 1;
 	char *s;
