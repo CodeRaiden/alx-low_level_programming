@@ -3,12 +3,10 @@
 #include <stdlib.h>
 
 /**
- * print_grid - prints a grid of integers
- * @grid: the address of the two dimensional grid
- * @width: width of the grid
- * @height: height of the grid
- *
- * Return: Nothing.
+ * free_grid - function that free memory in the grid
+ * @grid: int pointer to a bidimensional array
+ * @height: int
+ * Return: void
  */
 
 void free_grid(int **grid, int height)
