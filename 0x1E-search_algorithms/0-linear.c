@@ -1,7 +1,7 @@
 #include "search_algos.h"
 
 #define VALUE_CHECKED(array, index) \
-	printf("Value checked arry[%lu] = [%d]\n", index, array[index])
+	printf("Value checked array[%lu] = [%d]\n", index, array[index])
 
 /**
  * linear_search - Searches for a value in an integer array
@@ -14,11 +14,13 @@
  */
 int linear_search(int *array, size_t size, int value)
 {
+	size_t i;
+
 	if (array)
 	{
-		for(size_t i = 0; i < size; i++)
+		for (i = 0; i < size; i++)
 		{
-			VALUE_CHECKED(array[i], i);
+			VALUE_CHECKED(array, i);
 			if (array[i] == value)
 			{
 				return i;
