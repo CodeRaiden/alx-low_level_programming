@@ -56,3 +56,4 @@ int binary_search(int *array, size_t size, int value)
 {
 	return (array && size ? _search(array, 0, size - 1, value) : -1);
 }
+
