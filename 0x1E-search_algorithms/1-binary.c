@@ -38,7 +38,7 @@ static int _search(int *array, size_t l, size_t r, int value)
 	print_array(array, l, r);
 	if (array[mid] < value)
 		return (_search(array, mid + 1, r, value));
-	else if (array[mid] > value)
+	if (array[mid] > value)
 		return (_search(array, l, mid - 1, value));
 	return (mid);
 }
